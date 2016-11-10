@@ -1,0 +1,35 @@
+{
+  "name": "dependon",
+  "version": "0.0.1",
+  "description": "A node.js module for easily enforcing correct arguments",
+  "main": "dependon.js",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "dependon.js"
+  ],
+  "scripts": {
+    "test": "mocha; jshint ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CraigH2013/dependon.git"
+  },
+  "keywords": [
+    "validate",
+    "arguments",
+    "check",
+    "types"
+  ],
+  "author": "Craig Harrison",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CraigH2013/dependon/issues"
+  },
+  "homepage": "https://github.com/CraigH2013/dependon#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "jshint": "^2.9.4",
+    "mocha": "^3.1.2"
+  }
+}
