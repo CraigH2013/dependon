@@ -61,3 +61,5 @@ var dependon = function(value, fn0) {
     }
   });
 };
+
+module.exports = dependon;
